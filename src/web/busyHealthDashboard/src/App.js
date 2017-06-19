@@ -26,12 +26,7 @@ class App extends Component {
       }
 
       var config = {
-        apiKey: "AIzaSyBbltzC53ILxolIfs2CYDo0SO0HN7-oHfA",
-        authDomain: "busynurse-98b70.firebaseapp.com",
-        databaseURL: "https://busynurse-98b70.firebaseio.com",
-        projectId: "busynurse-98b70",
-        storageBucket: "busynurse-98b70.appspot.com",
-        messagingSenderId: "694524693317"
+        
 
       };
       this.app = firebase.initializeApp(config);
